@@ -234,7 +234,7 @@ let json = JSON(["name", "age"])
 if let name = json[999].string {
     //Do something you want
 } else {
-    print(json[999].error!) // "Array[999] is out of bounds"
+    print(json[999].error) // "Array[999] is out of bounds"
 }
 ```
 
